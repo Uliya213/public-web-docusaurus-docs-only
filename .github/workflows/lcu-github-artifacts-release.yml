@@ -2,12 +2,12 @@ name: Uliya213/public-web-react
 
 on:
   push:
-    branches: [main,Bookofdin]
+    branches: [main]
   pull_request:
-    branches: [main,Bookofdin]
+    branches: [main]
 
 env:
-  Branches: main,Bookofdin
+  Branches: main
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm ci
